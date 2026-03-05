@@ -3,7 +3,8 @@
 
 int main(void) {
 
-    printf("Init Project.");
+		printf("\n = = = = = = = = Edvaldo vunge_");
+    	printf("\tInit Project_ = = = = = = = = ");
     return (0);
 }
 
