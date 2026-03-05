@@ -1,45 +1,61 @@
+# =========================
+# Compiled C files
+# =========================
+*.o
+*.out
+*.a
+*.so
+*.exe
+*.dll
 
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Default GCC output
+a.out
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# =========================
+# Debugging files
+# =========================
+*.dSYM/
+*.stackdump
+vgcore.*
+valgrind.log
 
-# testing
-/coverage
+# =========================
+# Make build artifacts
+# =========================
+build/
+dist/
 
-# next.js
-/.next/
-/out/
+# =========================
+# Logs
+# =========================
+*.log
 
-# production
-/build
-
-# misc
+# =========================
+# macOS system files
+# =========================
 .DS_Store
-*.pem
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+# =========================
+# VS Code
+# =========================
+.vscode/
 
-# . files (can opt-in for committing if needed)
-.
+# =========================
+# JetBrains / CLion
+# =========================
+.idea/
+cmake-build-*/
 
-# vercel
-.vercel
+# =========================
+# Temporary files
+# =========================
+*~
+*.swp
+*.tmp
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-
-main
-
+# =========================
+# Coverage files
+# =========================
+*.gcda
+*.gcno
+*.gcov
