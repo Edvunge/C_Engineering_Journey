@@ -1,0 +1,23 @@
+
+Padrão de Commits Oficial
+
+type(scope): description
+
+
+Exemplos reais: 
+
+    feat(day-001): implement temperature converter
+    docs(day-001): add notes about primitive types
+    feat(arrays): implement array reverse function
+    fix(memory): correct improper free usage
+    build(makefile): add strict compilation flags
+    refactor(day-020): simplify loop structure
+
+
+
+🔒 Flags obrigatórias (use sempre)
+
+Compile assim:
+
+    gcc -Wall -Wextra -Werror main.c -o program
+
