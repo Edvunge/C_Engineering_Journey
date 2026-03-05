@@ -14,10 +14,9 @@ Exemplos reais:
     refactor(day-020): simplify loop structure
 
 
+# COMMITS
 
-🔒 Flags obrigatórias (use sempre)
+commit n.2 - chore: add professional .gitignore configuration
 
-Compile assim:
-
-    gcc -Wall -Wextra -Werror main.c -o program
+commit n.1 -  Init Project
 
