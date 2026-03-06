@@ -1,0 +1,16 @@
+TYPOLOGY
+
+The types in C can be classified as follows:
+
+    * Basic types
+        - Standard and extended integer types
+        - Real and complex floating-point types
+    * Enumerated types
+    * The type void 
+    * Derived types
+        - Pointer types
+        - Array types
+        - Structure types
+    * Union types
+    * Function types
+    

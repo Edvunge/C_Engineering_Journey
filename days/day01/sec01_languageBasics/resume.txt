@@ -1,0 +1,17 @@
+
+Characteristics Of C
+
+C is a general-purpose, procedural programming language. Dennis Ritchie first 
+devised C in the 1970s at AT&T Bell Laborations in Murray Hill, New Jersey, for 
+the purpose of implementing the Unix operating system and utilities with the greatest
+possible degree of independence from specific hardware platforms. The key characteristics 
+of the C language are the qualities that made it suitable for that purpose: 
+
+    * Source code portability 
+    
+    * The ability to operate "close to the machine"
+    
+    * Efficiency
+
+As a result, the developers of Unix were able to write most of the operating system in C,
+leaving only a minimum of system-specific hardware manipulation to be coded in assembler.

@@ -1,0 +1,44 @@
+
+Identifier Scope
+
+The scope of an identifier refers to that part of the translation unit in which the
+identifier is meaningful. Or to put it another way, the identifier’s scope is that part of
+the program that can “see” that identifier. The type of scope is always determined by
+the location at which you declare the identifier (except for labels, which always have
+function scope). Four kinds of scope are possible:
+
+
+File scope
+    
+    If you declare an identifier outside all blocks and parameter lists, then it has file
+    scope. You can then use the identifier anywhere after the declaration and up to
+    the end of the translation unit.
+
+
+Block scope
+    
+    Except for labels, identifiers declared within a block have block scope. You can
+    use such an identifier only from its declaration to the end of the smallest block
+    containing that declaration. The smallest containing block is often, but not necessarily, 
+    the body of a function definition. Starting with C99, declarations do
+    not have to be placed before all statements in a function block. The parameter
+    names in the head of a function definition also have block scope, and are valid
+    within the corresponding function block.
+
+
+Function prototype scope
+    
+    The parameter names in a function prototype have function prototype scope.
+    Because these parameter names are not significant outside the prototype itself,
+    they are meaningful only as comments, and can also be omitted. See Chapter 7
+    for further information.
+
+
+Function scope
+    
+    The scope of a label is always the function block in which the label occurs, even
+    if it is placed within nested blocks. In other words, you can use a goto statement 
+    to jump to a label from any point within the same function that contains the label. 
+    (Jumping into nested blocks is not a good idea, though; see Chapter 6 for details.)
+
+
